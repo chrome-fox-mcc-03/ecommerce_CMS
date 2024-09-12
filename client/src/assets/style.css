@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ui.grid {
+  margin: 0;
+  height: 85vh;
+}
+
+.login {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table img {
+  width: 10vw;
+  height: 20vh;
+}
+
+.btn-group-edit, .btn-group-delete {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#modal-delete h2, #modal-delete p{
+  display: flex;
+  justify-content: center;
+}
+
+.ui.modal {
+  width: 40vw;
+}
+
+#modal-delete .ui.standard.modal.transition.visible.active {
+  width: 25vw;
+}
